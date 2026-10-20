@@ -2,6 +2,8 @@
 
 Personal portfolio website: Computer Science @ FIU · Data, Python & Applied AI.
 
+**Live site:** https://pieroeb.github.io/piero-portfolio/
+
 Plain HTML + CSS + a few lines of JavaScript. There's no build step and no framework, so any change you save goes live the next time you push.
 
 ## Project structure
