@@ -1,0 +1,9 @@
+# Private working notes — not part of the public site
+PORTFOLIO_RESEARCH.md
+Piero_Espinoza_Resume-2026_Oct.docx
+
+# Local tooling
+.claude/
+node_modules/
+.DS_Store
+Thumbs.db
