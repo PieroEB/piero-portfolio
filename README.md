@@ -13,10 +13,11 @@ index.html          All page content (sections: hero, about, experience, work, a
 styles.css          Design tokens (colors, fonts, spacing) at the top, then styles per section
 assets/
   piero.jpg         Profile photo (hero)
-  Piero_Espinoza_Resume.docx   Résumé linked by the "Download résumé" buttons
+  Piero_Espinoza_Resume.pdf   Résumé linked by the "Download résumé" buttons
   icons/            Tool logos used in "What I work with"
 serve.js            Tiny local server for previewing (node serve.js)
 DESIGN.md           Visual style reference the design follows
+AGENTS.md           Full context and rules for AI coding agents working on this repo
 ```
 
 ## Preview locally
@@ -31,7 +32,7 @@ Then open http://localhost:5173 in your browser.
 
 - **Change text:** edit `index.html`. Each section starts with a comment such as `<!-- 03 Work -->`.
 - **Change the photo:** replace `assets/piero.jpg` (keep the same name, portrait 3:4 works best).
-- **Update the résumé:** replace `assets/Piero_Espinoza_Resume.docx`. A PDF is better for recruiters: add `assets/Piero_Espinoza_Resume.pdf` and update the `href` links in `index.html`.
+- **Update the résumé:** replace `assets/Piero_Espinoza_Resume.pdf`. Keep the same file name so the links keep working.
 - **Add a skill icon:** put an `.svg` in `assets/icons/` and copy one `<li class="tile">…</li>` line in the Skills section.
 - **Change colors or fonts:** edit the variables in `:root` at the top of `styles.css`.
 
